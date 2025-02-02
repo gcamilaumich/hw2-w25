@@ -2,7 +2,7 @@ body{
 font-family: Arial, Verdana;
 background-color: #000000;
 color: #ffffff;
-margin: 20px;
+margin-top: 20px;
 margin-right: 20px;
 margin-left: 20px;
 }
@@ -95,8 +95,12 @@ div{
 footer{
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000);
     border: 5px solid #ffffff;
-    text-align: center;
-    padding: 10px;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 0 15px 15px;
 }
 
 
